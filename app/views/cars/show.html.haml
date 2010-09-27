@@ -1,0 +1,10 @@
+%p
+  %b Title:
+  = @car.title
+%p
+  %b Description:
+  = @car.description
+
+= link_to 'Edit', edit_car_path(@car)
+\|
+= link_to 'Back', cars_path
